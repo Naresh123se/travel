@@ -10,6 +10,7 @@ yarn.lock
 .env.test.local
 .env.production.local
 
+<<<<<<< HEAD
 # React
 build/
 coverage/
@@ -45,3 +46,12 @@ out/
 
 # Mac specific files
 .DS_Store
+=======
+
+
+
+
+
+
+
+>>>>>>> 6e65d83 (update feather)
