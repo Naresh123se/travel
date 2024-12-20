@@ -7,7 +7,6 @@ import Header from "./pages/Header";
 function App() {
   const location = useLocation();
   const isLogin = location.pathname === "/login";
-  console.log(isLogin);
 
   return (
     <>
