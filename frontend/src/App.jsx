@@ -3,6 +3,7 @@ import Login from "./auth/login";
 import Register from "./auth/Register";
 import Home from "./pages/Home";
 import Header from "./pages/Header";
+import Footer from "./components/Footer";
 
 function App() {
   const location = useLocation();
@@ -16,6 +17,7 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/" element={<Home />} />
       </Routes>
+      <Footer/>
     </>
   );
 }
