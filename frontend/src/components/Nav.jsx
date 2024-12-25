@@ -18,7 +18,7 @@ const Nav = () => {
             <Link href="/about">About</Link>
             <Link href="/contact">Contact</Link>
           </div>
-          <div className="hidden md:flex"> 
+          <div className="hidden md:flex">
             <button className="bg-blue-500 text-white px-4 py-2 rounded-md">
               Login
             </button>

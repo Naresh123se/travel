@@ -1,8 +1,7 @@
-import connectDB from "./config/db.js"
+import connectDB from "./config/db.js";
 import express from "express";
 import dotenv from "dotenv";
 import cors from "cors";
-
 
 // Load environment variables from .env file
 dotenv.config();
@@ -22,7 +21,6 @@ const PORT = process.env.PORT || 5000;
 // Basic route
 app.get("/", (req, res) => {
   res.json({ message: "Welcome to the API!11" }); // Ensure this is a JSON object
-
 });
 
 // Sample API route
@@ -35,9 +33,8 @@ app.use(
     origin: "http://localhost:5173",
     methods: "GET,POST,PUT,DELETE",
     credentials: true,
-
   })
-)
+);
 
 // Start the server
 app.listen(PORT, () => {

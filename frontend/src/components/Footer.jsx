@@ -8,8 +8,8 @@ const Footer = () => {
         <div className="flex-1 ">
           <h1 className="text-xl font-bold">Logo</h1>
           <p className="mt-2 text-sm">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Your footer description goes here.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Your footer
+            description goes here.
           </p>
           <div className="flex gap-4 mt-4">
             <Link to="https://facebook.com" className="hover:underline">
